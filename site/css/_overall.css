@@ -1,0 +1,28 @@
+.container {
+	max-width: 1920px;
+	padding: 0 150px;
+	margin: 0 auto;
+}
+.site-contener{
+	overflow: hidden;
+} 
+@media(max-width: 1366px){
+	.container{
+		padding: 0 75px;
+	}
+}
+@media screen and (min-width: 240px) and (max-width: 650px){
+	.container{
+		padding: 0 25px;
+	}
+}
+@media (min-width: 1439px) and (max-width: 1481px){
+	.container{
+		padding: 0 65px;
+	}
+}
+@media(min-width: 700px) and (max-width: 1040px){
+	.container{
+		padding: 0 35px;
+	}
+}
