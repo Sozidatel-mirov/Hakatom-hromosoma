@@ -1,0 +1,180 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Authorization.html" />
+    <Content Include="index.html" />
+    <Content Include="Registration.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\icon\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Advertisement.html" />
+    <None Include="wwwroot\Authorization.html" />
+    <None Include="wwwroot\css\Advertisement.css" />
+    <None Include="wwwroot\css\Authorization.css" />
+    <None Include="wwwroot\css\ecsperty.css" />
+    <None Include="wwwroot\css\heder.css" />
+    <None Include="wwwroot\css\Leave_a_request.css" />
+    <None Include="wwwroot\css\List_of_experts.css" />
+    <None Include="wwwroot\css\Personal_account.css" />
+    <None Include="wwwroot\css\Registration.css" />
+    <None Include="wwwroot\css\Reting.css" />
+    <None Include="wwwroot\css\sec1.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\Zayavki_admina.css" />
+    <None Include="wwwroot\css\Zayvka.css" />
+    <None Include="wwwroot\css\_fonts.css" />
+    <None Include="wwwroot\css\_global.css" />
+    <None Include="wwwroot\css\_media.css" />
+    <None Include="wwwroot\css\_normalize.css" />
+    <None Include="wwwroot\css\_overall.css" />
+    <None Include="wwwroot\css\_variables.css" />
+    <None Include="wwwroot\css\_vendor.css" />
+    <None Include="wwwroot\Eksperti.html" />
+    <None Include="wwwroot\font\BebasNeue-Thin.eot" />
+    <None Include="wwwroot\font\BebasNeue-Thin.ttf" />
+    <None Include="wwwroot\font\BebasNeue-Thin.woff" />
+    <None Include="wwwroot\font\BebasNeue-Thin.woff2" />
+    <None Include="wwwroot\font\BebasNeueBold.eot" />
+    <None Include="wwwroot\font\BebasNeueBold.ttf" />
+    <None Include="wwwroot\font\BebasNeueBold.woff" />
+    <None Include="wwwroot\font\BebasNeueBold.woff2" />
+    <None Include="wwwroot\font\BebasNeueBook.eot" />
+    <None Include="wwwroot\font\BebasNeueBook.ttf" />
+    <None Include="wwwroot\font\BebasNeueBook.woff" />
+    <None Include="wwwroot\font\BebasNeueBook.woff2" />
+    <None Include="wwwroot\font\BebasNeueLight.eot" />
+    <None Include="wwwroot\font\BebasNeueLight.ttf" />
+    <None Include="wwwroot\font\BebasNeueLight.woff" />
+    <None Include="wwwroot\font\BebasNeueLight.woff2" />
+    <None Include="wwwroot\font\BebasNeueRegular.eot" />
+    <None Include="wwwroot\font\BebasNeueRegular.ttf" />
+    <None Include="wwwroot\font\BebasNeueRegular.woff" />
+    <None Include="wwwroot\font\BebasNeueRegular.woff2" />
+    <None Include="wwwroot\font\demo %282%29.html" />
+    <None Include="wwwroot\font\demo.html" />
+    <None Include="wwwroot\font\Graphik-Black.eot" />
+    <None Include="wwwroot\font\Graphik-Black.ttf" />
+    <None Include="wwwroot\font\Graphik-Black.woff" />
+    <None Include="wwwroot\font\Graphik-Black.woff2" />
+    <None Include="wwwroot\font\Graphik-BlackItalic.eot" />
+    <None Include="wwwroot\font\Graphik-BlackItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-BlackItalic.woff" />
+    <None Include="wwwroot\font\Graphik-BlackItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Bold.eot" />
+    <None Include="wwwroot\font\Graphik-Bold.ttf" />
+    <None Include="wwwroot\font\Graphik-Bold.woff" />
+    <None Include="wwwroot\font\Graphik-Bold.woff2" />
+    <None Include="wwwroot\font\Graphik-BoldItalic.eot" />
+    <None Include="wwwroot\font\Graphik-BoldItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-BoldItalic.woff" />
+    <None Include="wwwroot\font\Graphik-BoldItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Extralight.eot" />
+    <None Include="wwwroot\font\Graphik-Extralight.ttf" />
+    <None Include="wwwroot\font\Graphik-Extralight.woff" />
+    <None Include="wwwroot\font\Graphik-Extralight.woff2" />
+    <None Include="wwwroot\font\Graphik-ExtralightItalic.eot" />
+    <None Include="wwwroot\font\Graphik-ExtralightItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-ExtralightItalic.woff" />
+    <None Include="wwwroot\font\Graphik-ExtralightItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Light.eot" />
+    <None Include="wwwroot\font\Graphik-Light.ttf" />
+    <None Include="wwwroot\font\Graphik-Light.woff" />
+    <None Include="wwwroot\font\Graphik-Light.woff2" />
+    <None Include="wwwroot\font\Graphik-LightItalic.eot" />
+    <None Include="wwwroot\font\Graphik-LightItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-LightItalic.woff" />
+    <None Include="wwwroot\font\Graphik-LightItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Medium.eot" />
+    <None Include="wwwroot\font\Graphik-Medium.ttf" />
+    <None Include="wwwroot\font\Graphik-Medium.woff" />
+    <None Include="wwwroot\font\Graphik-Medium.woff2" />
+    <None Include="wwwroot\font\Graphik-MediumItalic.eot" />
+    <None Include="wwwroot\font\Graphik-MediumItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-MediumItalic.woff" />
+    <None Include="wwwroot\font\Graphik-MediumItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Regular.eot" />
+    <None Include="wwwroot\font\Graphik-Regular.ttf" />
+    <None Include="wwwroot\font\Graphik-Regular.woff" />
+    <None Include="wwwroot\font\Graphik-Regular.woff2" />
+    <None Include="wwwroot\font\Graphik-RegularItalic.eot" />
+    <None Include="wwwroot\font\Graphik-RegularItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-RegularItalic.woff" />
+    <None Include="wwwroot\font\Graphik-RegularItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Semibold.eot" />
+    <None Include="wwwroot\font\Graphik-Semibold.ttf" />
+    <None Include="wwwroot\font\Graphik-Semibold.woff" />
+    <None Include="wwwroot\font\Graphik-Semibold.woff2" />
+    <None Include="wwwroot\font\Graphik-SemiboldItalic.eot" />
+    <None Include="wwwroot\font\Graphik-SemiboldItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-SemiboldItalic.woff" />
+    <None Include="wwwroot\font\Graphik-SemiboldItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Super.eot" />
+    <None Include="wwwroot\font\Graphik-Super.ttf" />
+    <None Include="wwwroot\font\Graphik-Super.woff" />
+    <None Include="wwwroot\font\Graphik-Super.woff2" />
+    <None Include="wwwroot\font\Graphik-SuperItalic.eot" />
+    <None Include="wwwroot\font\Graphik-SuperItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-SuperItalic.woff" />
+    <None Include="wwwroot\font\Graphik-SuperItalic.woff2" />
+    <None Include="wwwroot\font\Graphik-Thin.eot" />
+    <None Include="wwwroot\font\Graphik-Thin.ttf" />
+    <None Include="wwwroot\font\Graphik-Thin.woff" />
+    <None Include="wwwroot\font\Graphik-Thin.woff2" />
+    <None Include="wwwroot\font\Graphik-ThinItalic.eot" />
+    <None Include="wwwroot\font\Graphik-ThinItalic.ttf" />
+    <None Include="wwwroot\font\Graphik-ThinItalic.woff" />
+    <None Include="wwwroot\font\Graphik-ThinItalic.woff2" />
+    <None Include="wwwroot\font\HelveticaNeue-Bold.woff" />
+    <None Include="wwwroot\font\HelveticaNeue-Bold.woff2" />
+    <None Include="wwwroot\font\ofont.ru_Bebas Neue.ttf" />
+    <None Include="wwwroot\font\PlayfairDisplay-Regular.woff" />
+    <None Include="wwwroot\font\PlayfairDisplay-Regular.woff2" />
+    <None Include="wwwroot\font\SFCompactText-Light.woff" />
+    <None Include="wwwroot\font\SFCompactText-Light.woff2" />
+    <None Include="wwwroot\font\SFCompactText-Regular.woff" />
+    <None Include="wwwroot\font\SFCompactText-Regular.woff2" />
+    <None Include="wwwroot\font\SFProDisplay-Bold.woff" />
+    <None Include="wwwroot\font\SFProDisplay-Bold.woff2" />
+    <None Include="wwwroot\font\SFProDisplay-Heavy.woff" />
+    <None Include="wwwroot\font\SFProDisplay-Heavy.woff2" />
+    <None Include="wwwroot\font\SFProDisplay-Medium.woff" />
+    <None Include="wwwroot\font\SFProDisplay-Medium.woff2" />
+    <None Include="wwwroot\font\SFProText-Regular.woff" />
+    <None Include="wwwroot\font\SFProText-Regular.woff2" />
+    <None Include="wwwroot\font\stylesheet.css" />
+    <None Include="wwwroot\font\stylesheet1.css" />
+    <None Include="wwwroot\img\2.svg" />
+    <None Include="wwwroot\img\3.svg" />
+    <None Include="wwwroot\img\hide.png" />
+    <None Include="wwwroot\img\i.svg" />
+    <None Include="wwwroot\img\prof.svg" />
+    <None Include="wwwroot\img\view.png" />
+    <None Include="wwwroot\img\view.svg" />
+    <None Include="wwwroot\js\glass.js" />
+    <None Include="wwwroot\js\text.js" />
+    <None Include="wwwroot\js\video.js" />
+    <None Include="wwwroot\Leave_a_request.html" />
+    <None Include="wwwroot\List_of_experts.html" />
+    <None Include="wwwroot\Personal_account.html" />
+    <None Include="wwwroot\Reting.html" />
+    <None Include="wwwroot\user.html" />
+    <None Include="wwwroot\Zayavki.html" />
+    <None Include="wwwroot\Zayavki_admina.html" />
+  </ItemGroup>
+
+</Project>
