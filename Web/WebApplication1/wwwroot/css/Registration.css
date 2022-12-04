@@ -1,0 +1,9 @@
+.reg{
+	height: 698px;
+	width: 644px;
+}
+.pochta{
+	display: flex;
+	justify-content: center;
+	padding-top: 36px ; 
+}

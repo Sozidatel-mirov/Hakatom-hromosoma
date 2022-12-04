@@ -1,0 +1,289 @@
+.acc{
+	justify-content: left;
+	margin: 0 0 0 119px;
+
+}
+.back_con{
+	width: 753px;
+	height: 825px;
+	background: #000000;
+	border-radius: 77px;
+	display: grid;
+	justify-content: center;
+
+}
+.titel_prof{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 94px;
+	padding: 60px 0 40px 0;
+	text-align: center;
+}
+
+.centr{
+	display: flex;
+	justify-content: center;
+}
+.icon{
+	padding: 30px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+.icon_link{
+	width: 250px;
+	height: 250px;
+}
+
+.data{
+	background: #fff;
+	border: 0px solid;
+	border-radius: 20px;
+	width: 480px;
+	height: 62px;
+}
+.data:not(:last-child){
+	margin-bottom: 64px;
+}
+.flex{
+	display: grid;
+}
+.cen{
+	display: grid;
+	justify-content: center;
+}
+.margi{
+	margin-bottom: 89px ;
+}
+
+.heigt{
+	height: 130vh;
+}
+.margin_cent{
+	margin: 0 120px;
+}
+
+
+/*.menu-content {
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.printed_publications{
+    background-color:black;
+    padding: 20px 0 0 50px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+	border-radius: 53px;
+	width: 1492px;
+	margin: 150px 0 0 0;
+}
+.printed_publications_link{
+	background-color:black;
+    padding: 20px 0 0 50px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+	width: 1492px;
+}
+.printed_publicationsul,.printed_publications_link {
+    list-style-type: none;
+    padding: 0;
+}
+.printed_publications a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+.printed_publications_link a{
+	display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+.printed_publications label {
+    font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color:#fff;
+}
+.printed_publications_link label{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color:#fff;
+}
+input#menu {
+    display: none;
+}
+input#menu1 {
+    display: none;
+}
+
+input:checked +label {
+}
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.menu-content1 {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+/* Эффект переключения*/
+/*input:checked ~ label {
+    content: '\2715'
+    color:#fff;
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+input:checked ~ .menu-content1 {
+    max-height: 100%;
+}*/
+.Title_str{
+	 font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color:#fff;
+	width: 1692px;
+}
+.content{
+	background: #000000;
+	border: 0px solid;
+	border-radius:60px ;
+	width: 1492px;
+}
+
+.style{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color: #fff;
+}
+.style_number{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color: black;
+}
+.zayvka{
+	padding: 81px 0 0 0;
+	display: flex;
+}
+.mar{
+	margin-left:30px ; 
+}
+.mar1{
+	margin-left:77px ; 
+}
+.status{
+	margin: 81px 0 0 0;
+	display: flex;
+}
+.center_text{
+	text-align: center;
+
+}
+.padding_crit{
+	padding-top: 89px;
+}
+.none{
+	padding: 0;
+	margin: 0
+}
+.disp{
+	display: flex;
+	justify-content: space-between;
+}
+.dis_flex{
+	display: flex;
+}
+.pad_1{
+	padding: 40px 121px 28px 102px;
+}
+.pad_0{
+	padding: 28px 0 0 102px;
+}
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;} 
+summary {
+   padding: .3em .6em .3em 1.5em;
+   display:inline-block;
+   font-size:1.4em;
+   cursor: pointer;
+   position: relative;
+   background: #000000;
+   border-radius: 60px;
+   margin-bottom: 30px;
+}
+summary:before {  
+  left: .3em;
+  top: .4em;
+  color: transparent;
+  background: no-repeat 50% 50% / 1em 1em;
+  width: 1em;
+  height: 1em;  
+  content: "";
+  font-size: 60px;
+  position: absolute;
+  color: #fff;
+  transition: transform .5s;
+
+
+}
+details[open] >summary:before {
+	transform: rotateZ(90deg);
+
+}
+summary ~ * {
+   padding:0 1em 0 1em;
+}
+details[open] summary ~ *{ 
+  animation: sweep .5s ease-in-out;
+  background: #000000;
+  border-radius: 0 0 60px 60px;
+}
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+summary:focus {
+  outline:0;
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
+}
+details{
+  display:block;
+  margin-bottom: .5rem;
+}
+.hedth{
+	height: 39px;
+	margin-top: 40px;
+}
+.hedth2{
+	margin-top: 150px;
+}
+.hedth3{
+	margin-top: 100px
+}
+.hedth0{
+	height: 39px;
+	margin-top: 50px;
+}
+.hedth4{
+	margin-top: 215px;
+}
+.hedth5{
+	margin-top: 265px;
+}

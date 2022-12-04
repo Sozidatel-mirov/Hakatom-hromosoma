@@ -1,0 +1,55 @@
+.heder1{
+ margin: 38px 120px 0px 120px;
+ display: flex;
+ padding-left: 51px;
+}
+
+
+.hed1{
+    position: fixed;
+    width: 100%;
+    height: 134px;
+    left: 0px;
+    top: -14px;
+    background: black;
+
+}
+.menu_main1{
+    margin: 0px 93px;
+    display: flex;
+    justify-content: left; 
+
+
+}
+
+
+.item_11 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+
+
+.hed2{
+    position: fixed;
+    width: 100%;
+    height: 134px;
+    left: 0px;
+    top: -14px;
+
+}
+.menu_main2{
+    margin: -30px 9px;
+    display: flex;
+    justify-content: right; 
+
+
+}
+
+

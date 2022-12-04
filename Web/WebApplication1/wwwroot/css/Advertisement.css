@@ -1,0 +1,33 @@
+.dvertisement_mar{
+	margin: 12px 76px 13px 76px;
+}
+
+.section_mar{
+	margin-top: 20px;
+}
+.padd_bor{
+	padding-top: 40px;
+}
+.edit{
+	width: 221px;
+	height: 43px;
+	background: #060606;
+	border-radius: 56px;
+	margin-top: 28.32px;
+	display: flex;
+	justify-content: center;
+
+}
+.Advertisement_mar{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 6.32px 46.02px 9.02px 46.02px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

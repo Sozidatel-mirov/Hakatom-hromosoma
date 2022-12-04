@@ -1,0 +1,60 @@
+.con_black_soavtor{
+	width: 1436px;
+	height: 1057px;
+	background: #000000;
+	border: 0px solid;
+	border-radius: 61px;
+}
+.strok_spavtor{
+	width: 1161px;
+height: 74px;
+	background: #D9D9D9;
+	border-radius: 55px;
+	border: 0px solid;
+	padding-bottom: 90px; 
+}
+.titel_zyav{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 54px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	padding: 66px 0 38px;
+}
+.dsp_flex{
+	display: flex;
+	justify-content: center;
+
+}
+.btn_soavtor{
+	width: 365px;
+	height: 60px;
+	border: 0px solid;
+	background: #FFFFFF;
+	border-radius: 56px;
+	transition: .5s;
+}
+.btn_soavtor:hover{
+	background: #7d7f7d;
+}
+.btn_soavtor_link{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 54px;
+	color: #000000;
+	margin: 0 80px 0 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strok_spavtor_title{
+	margin-bottom:90px ; 
+}
+.mar_{
+	margin-top:139px
+}

@@ -1,0 +1,31 @@
+.text_wite{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 33px;
+	text-align: center;
+
+}
+.Leave_a_request_form{
+	width: 713px;
+	height: 859px;
+	margin-top: 81px;
+	margin-left: 236px;
+}	
+.file_titel{
+	display: flex;
+	justify-content: center;
+}
+.file_titel{
+	padding: 36px 0 0 0;
+}
+.file{
+	width: 403px;
+	color: #fff;
+}
+.sec11{
+	    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
